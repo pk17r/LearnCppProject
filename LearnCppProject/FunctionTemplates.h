@@ -1,3 +1,4 @@
+//Learn Function templates concept
 #pragma once
 class FunctionTemplates
 {

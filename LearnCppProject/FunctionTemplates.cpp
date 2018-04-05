@@ -1,3 +1,4 @@
+//Learn Function templates concept
 #include "stdafx.h"
 #include "FunctionTemplates.h"
 #include <iostream>
@@ -24,6 +25,8 @@ T sum(T a, T b)
 
 FunctionTemplates::FunctionTemplates()
 {
+	cout << "\n\n**** Start of FunctionTemplates ****\n\n";
+
 	string aa = "this is a string\n";
 	cout << aa;
 	int a = 20, b = 40;
@@ -32,10 +35,11 @@ FunctionTemplates::FunctionTemplates()
 	cout << "sum of " << c << " and " << d << " is " << sum(c, d) << endl;
 	cout << "sum of " << a << " and " << c << " is " << sum(a, c) << endl;
 	cout << "sum of " << c << " and " << a << " is " << sum(c, a) << endl;
-	//return 0;
+
+	cout << "\n**** End of FunctionTemplates ****\n";
 }
 
 FunctionTemplates::~FunctionTemplates()
 {
-	cout << "*** Resource Freed! ***" << endl;
+	cout << "default destructor for FunctionTemplates" << endl;
 }
