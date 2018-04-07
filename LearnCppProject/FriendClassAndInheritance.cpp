@@ -85,3 +85,14 @@ FriendClassAndInheritanceRun::FriendClassAndInheritanceRun()
 	cout << "\n**** End of FriendClassAndInheritanceRun ****\n";
 }
 	
+void ScopeVariablesClass::ScopeVarsFn()
+{
+	cout << "\n\n*** Start of scope variables function ***\n" << endl;
+	int x = 10;
+	{
+		int x = 50;
+		cout << "inner scope x: " << x << endl;
+	}
+	cout << "outer scope x: " << x << endl;
+	cout << "\n*** Start of scope variables function ***\n" << endl;
+}

@@ -1,3 +1,6 @@
 Debug/
+Release/
 x64/
+x32/
 LearnCppProject/x64/
+LearnCppProject/x32/

@@ -38,3 +38,8 @@ public:
 	FriendClassAndInheritanceRun();
 	void AnyClassFn();
 };
+
+class ScopeVariablesClass {
+public:
+	void ScopeVarsFn();
+};
