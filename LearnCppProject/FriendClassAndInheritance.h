@@ -39,7 +39,12 @@ public:
 	void AnyClassFn();
 };
 
-class ScopeVariablesClass {
+class OtherFunctionsClass {
 public:
 	void ScopeVarsFn();
+	void CharStringOperationsFn();
+	void PointerOperationsFn();
+	void Polymorphism();
+	void VirtualFunctions();
+
 };
